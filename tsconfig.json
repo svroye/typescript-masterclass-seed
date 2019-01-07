@@ -1,4 +1,8 @@
 {
+  //"files": ["src/22-compiler-options.ts"],
+  // "extends": "",
+  // "include": [],
+  // "exclude": [],
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -8,7 +12,16 @@
       "src/@types",
       "node_modules/@types"
     ],
-    "declaration": true,
-    "declarationDir": "./@types"
+    //"declaration": true,
+    //"declarationDir": "./@types",
+    //"sourceMap": true,
+    //"mapRoot": "/mappings/",
+    //"inlineSources": true,
+    //"strictNullChecks": true,
+    // "traceResolution": true,
+    // "diagnostics": true,
+    // "listFiles": true,
+    // "listEmittedFiles": true,
+    // "pretty": true
   }
 }
